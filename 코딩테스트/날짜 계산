@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class SwitchExam4{
+	public static void main(String[]args){
+		Scanner scan=new Scanner(System.in);
+			int a=scan.nextInt();
+	
+			switch(a){
+				case 1,3,5,7,8,10,12 : System.out.print("31일 까지 있습니다."); break;
+				case 4,6,9,11 : System.out.print("30일 까지 있습니다."); break;
+				case 2 : System.out.print("28일 까지 있습니다."); break;
+			}
+	}
+}
