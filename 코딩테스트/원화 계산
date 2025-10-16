@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Dollar {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+        int a;
+
+        System.out.print("원화를 입력하세요(단위 : 원) : ");
+        a = scan.nextInt();
+
+        System.out.printf(a+"원은 $%.2f입니다.",((double)(a)/1260));
+
+    }
+}
